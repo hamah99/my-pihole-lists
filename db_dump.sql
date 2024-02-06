@@ -39,9 +39,9 @@ CREATE TABLE adlist
 	invalid_domains INTEGER NOT NULL DEFAULT 0,
 	status INTEGER NOT NULL DEFAULT 0
 );
-INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1706559061,1706559061,'Migrated from /etc/pihole/adlists.list',1707248176,158823,1,2);
-INSERT INTO adlist VALUES(2,'https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt',1,1707247825,1707247825,'PolishFilters Team',1707248179,122930,1,2);
-INSERT INTO adlist VALUES(3,'https://adaway.org/hosts.txt',1,1707248531,1707248531,'Adaway',NULL,0,0,0);
+INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1706559061,1706559061,'Migrated from /etc/pihole/adlists.list',1707248611,158823,1,2);
+INSERT INTO adlist VALUES(2,'https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt',1,1707247825,1707247825,'PolishFilters Team',1707248613,122930,1,2);
+INSERT INTO adlist VALUES(3,'https://adaway.org/hosts.txt',1,1707248531,1707248531,'Adaway',1707248614,6540,0,1);
 CREATE TABLE domainlist_by_group
 (
 	domainlist_id INTEGER NOT NULL REFERENCES domainlist (id),

@@ -39,10 +39,11 @@ CREATE TABLE adlist
 	invalid_domains INTEGER NOT NULL DEFAULT 0,
 	status INTEGER NOT NULL DEFAULT 0
 );
-INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1706559061,1706559061,'Migrated from /etc/pihole/adlists.list',1707652863,150999,1,1);
-INSERT INTO adlist VALUES(2,'https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt',1,1707247825,1707247825,'PolishFilters Team',1707652865,112037,1,1);
-INSERT INTO adlist VALUES(3,'https://adaway.org/hosts.txt',1,1707248531,1707248531,'Adaway',1707652866,6540,0,2);
-INSERT INTO adlist VALUES(4,'https://github.com/DandelionSprout/adfilt',1,1707255312,1707255312,'DandelionSprout&#039;s Anti-Malware List',1707652867,0,1585,1);
+INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1706559061,1706559061,'Migrated from /etc/pihole/adlists.list',1708059308,154587,1,1);
+INSERT INTO adlist VALUES(2,'https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt',1,1707247825,1707247825,'PolishFilters Team',1708059310,115416,1,1);
+INSERT INTO adlist VALUES(3,'https://adaway.org/hosts.txt',1,1707248531,1707248531,'Adaway',1708059311,6540,0,2);
+INSERT INTO adlist VALUES(4,'https://github.com/DandelionSprout/adfilt',1,1707255312,1707255312,'DandelionSprout&#039;s Anti-Malware List',1708059312,0,1677,1);
+INSERT INTO adlist VALUES(5,'https://v.firebog.net/hosts/AdguardDNS.txt',1,1708059551,1708059551,'AdguardDNS',NULL,0,0,0);
 CREATE TABLE domainlist_by_group
 (
 	domainlist_id INTEGER NOT NULL REFERENCES domainlist (id),

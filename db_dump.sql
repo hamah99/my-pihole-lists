@@ -44,6 +44,7 @@ INSERT INTO adlist VALUES(2,'https://raw.githubusercontent.com/PolishFiltersTeam
 INSERT INTO adlist VALUES(3,'https://adaway.org/hosts.txt',1,1707248531,1707248531,'Adaway',1708672870,6540,0,2);
 INSERT INTO adlist VALUES(4,'https://github.com/DandelionSprout/adfilt',1,1707255312,1707255312,'DandelionSprout&#039;s Anti-Malware List',1708672871,180,1957,1);
 INSERT INTO adlist VALUES(5,'https://v.firebog.net/hosts/AdguardDNS.txt',1,1708059551,1708059551,'AdguardDNS',1708672873,61693,0,1);
+INSERT INTO adlist VALUES(6,'https://v.firebog.net/hosts/Easyprivacy.txt',1,1708716386,1708716386,'Easyprivacy',NULL,0,0,0);
 CREATE TABLE domainlist_by_group
 (
 	domainlist_id INTEGER NOT NULL REFERENCES domainlist (id),
